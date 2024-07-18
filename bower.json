@@ -1,0 +1,25 @@
+{
+  "name": "textconverter",
+  "version": "0.0.1",
+  "authors": [
+    "Roman Kapustian <ikrombox@gmail.com>"
+  ],
+  "description": "text coverter",
+  "keywords": [
+    "twitter",
+    "converter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.1",
+    "jshashes": "~1.0.5"
+  }
+}

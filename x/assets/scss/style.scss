@@ -1,0 +1,95 @@
+
+@import "compass/css3";
+
+$purple:  #563d7c;
+$lightOrange: #FFCC66;
+$orange: #FF9933;
+$white:  #fff;
+
+body {background-color: #000;height: 100%;}
+.wrapper {
+    max-width: 780px;
+    background-color: #333;
+    //height: 100%;
+    min-height: 100%;
+    //color: #fff;
+}
+
+.title {
+    color: #fff;
+    font-weight: bold;
+}
+
+.steps-holder {
+    margin-bottom: 65px;
+    div {
+        width: 49%;
+        background-color: $lightOrange;
+        padding: 10px 0px;
+        //margin-right: 55px;
+        //border: 1px solid #CCCCCC;
+        //box-shadow: 7px 7px 5px 0px #FF9966;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        @include transition(all 0.5s ease-out 0s);
+        @include border-radius(5px);
+    }
+    
+    div.active {
+        background-color: $orange;
+        color: $white;
+    }
+}
+
+.form-holder {    
+    .converter-form {
+        textarea {width:100%;}
+        button {width: 100%;}
+    }
+}
+
+.progress {
+    width: 100%;
+}
+
+#download {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#convert {    
+    margin-top: 10px;
+}
+
+#newsearch {
+    margin-top: 10px;
+}
+
+label {
+        color: $white;
+        font-size: 20px;
+        font-weight: normal;
+}
+
+.panel {
+    background: none repeat scroll 0 0 #444;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+.options-wrapper {
+    margin-top: 20px;
+    .option-holder {
+        width: 100%;
+        display: table;
+
+        .option {
+            margin-left: 10px;
+        }
+
+        .sub-level {
+            margin-left: 40px;
+            margin-top: -10px;
+        }
+    }
+}
